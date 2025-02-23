@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "D:\\FPT\\SE7\\PRU212\\Ex\\Lab2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DDEF2E0A-5C3A-95E3-CBE5-C1365615EF7B}|Assembly-CSharp.csproj|D:\\FPT\\SE7\\PRU212\\Ex\\Lab2\\assets\\scripts\\crashdetector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDEF2E0A-5C3A-95E3-CBE5-C1365615EF7B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\crashdetector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DDEF2E0A-5C3A-95E3-CBE5-C1365615EF7B}|Assembly-CSharp.csproj|d:\\fpt\\se7\\pru212\\ex\\lab2\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DDEF2E0A-5C3A-95E3-CBE5-C1365615EF7B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDEF2E0A-5C3A-95E3-CBE5-C1365615EF7B}|Assembly-CSharp.csproj|D:\\FPT\\SE7\\PRU212\\Ex\\Lab2\\assets\\scripts\\finishline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDEF2E0A-5C3A-95E3-CBE5-C1365615EF7B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\finishline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DDEF2E0A-5C3A-95E3-CBE5-C1365615EF7B}|Assembly-CSharp.csproj|D:\\FPT\\SE7\\PRU212\\Ex\\Lab2\\assets\\scripts\\maincamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDEF2E0A-5C3A-95E3-CBE5-C1365615EF7B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\maincamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDEF2E0A-5C3A-95E3-CBE5-C1365615EF7B}|Assembly-CSharp.csproj|d:\\fpt\\se7\\pru212\\ex\\lab2\\assets\\scripts\\maincamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDEF2E0A-5C3A-95E3-CBE5-C1365615EF7B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\maincamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DDEF2E0A-5C3A-95E3-CBE5-C1365615EF7B}|Assembly-CSharp.csproj|D:\\FPT\\SE7\\PRU212\\Ex\\Lab2\\assets\\scripts\\crashdetector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDEF2E0A-5C3A-95E3-CBE5-C1365615EF7B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\crashdetector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDEF2E0A-5C3A-95E3-CBE5-C1365615EF7B}|Assembly-CSharp.csproj|D:\\FPT\\SE7\\PRU212\\Ex\\Lab2\\assets\\scripts\\finishline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDEF2E0A-5C3A-95E3-CBE5-C1365615EF7B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\finishline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,13 +54,38 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "D:\\FPT\\SE7\\PRU212\\Ex\\Lab2\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
+              "ToolTip": "D:\\FPT\\SE7\\PRU212\\Ex\\Lab2\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
+              "ViewState": "AQIAAJkAAAAAAAAAAAAiwFYAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T10:22:43.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "FinishLine.cs",
+              "DocumentMoniker": "D:\\FPT\\SE7\\PRU212\\Ex\\Lab2\\Assets\\Scripts\\FinishLine.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\FinishLine.cs",
+              "ToolTip": "D:\\FPT\\SE7\\PRU212\\Ex\\Lab2\\Assets\\Scripts\\FinishLine.cs",
+              "RelativeToolTip": "Assets\\Scripts\\FinishLine.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T10:36:31.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "MainCamera.cs",
               "DocumentMoniker": "D:\\FPT\\SE7\\PRU212\\Ex\\Lab2\\Assets\\Scripts\\MainCamera.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MainCamera.cs",
               "ToolTip": "D:\\FPT\\SE7\\PRU212\\Ex\\Lab2\\Assets\\Scripts\\MainCamera.cs",
               "RelativeToolTip": "Assets\\Scripts\\MainCamera.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-10T10:54:15.837Z",
               "EditorCaption": ""
@@ -68,19 +93,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "FinishLine.cs",
-              "DocumentMoniker": "D:\\FPT\\SE7\\PRU212\\Ex\\Lab2\\Assets\\Scripts\\FinishLine.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\FinishLine.cs",
-              "ToolTip": "D:\\FPT\\SE7\\PRU212\\Ex\\Lab2\\Assets\\Scripts\\FinishLine.cs",
-              "RelativeToolTip": "Assets\\Scripts\\FinishLine.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-10T10:36:31.374Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "CrashDetector.cs",
               "DocumentMoniker": "D:\\FPT\\SE7\\PRU212\\Ex\\Lab2\\Assets\\Scripts\\CrashDetector.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CrashDetector.cs",
@@ -89,19 +101,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-10T10:23:08.284Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PlayerController.cs",
-              "DocumentMoniker": "D:\\FPT\\SE7\\PRU212\\Ex\\Lab2\\Assets\\Scripts\\PlayerController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
-              "ToolTip": "D:\\FPT\\SE7\\PRU212\\Ex\\Lab2\\Assets\\Scripts\\PlayerController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAYwCcAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-10T10:22:43.079Z",
               "EditorCaption": ""
             }
           ]
