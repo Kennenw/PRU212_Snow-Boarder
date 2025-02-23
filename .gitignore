@@ -1,20 +1,101 @@
-# Thư mục không cần đẩy lên Git
-Library/
-Temp/
-Logs/
-obj/
-Builds/
-UserSettings/
+# Unity
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
 
-# File không cần đẩy lên Git
-*.csproj
+# Visual Studio / Rider
+.vs/
 *.sln
-*.suo
-*.tmp
-*.pidb
+*.csproj
 *.user
-*.bak
-*.swp
-*.lock
-*.log
+*.unityproj
+*.pidb
+*.suo
+*.svd
+*.pdb
+*.opendb
+*.VC.db
+*.aps
+
+# MonoDevelop
+*.pidb
+*.suo
+*.userprefs
+*.unityproj
+*.booproj
+.mono/
+.idea/
+*.iml
+
+# Mac
 .DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# JetBrains Rider
+*.sln.iml
+
+# Logs & Crash Reports
+sysinfo.txt
+crash_log.txt
+error.log
+*.stacktrace
+
+# Package Management
+Packages/*
+!Packages/manifest.json
+!Packages/packages-lock.json
+
+# Asset Meta Data
+**/*.meta
+
+# Cache
+# (Avoid pushing caches and temporary files)
+*.bak
+*.backup
+*.tmp
+*.temp
+*.swap
+*.cache
+*.copy
+*.blend1
+*.blend2
+
+# Unity Auto-Generated Files
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+*.VC.db
+
+# Ignore Play Mode Tests
+Assets/Scenes/Tests/**/PlayModeTestRunner*
+
+# Prevent uploading large auto-generated files
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+UserSettings/
+MemoryCaptures/
+
+# LFS (Large File Storage)
+# Nếu sử dụng Git LFS, bạn có thể cần bổ sung các dòng sau để quản lý các tệp lớn như âm thanh, mô hình 3D, video:
+# *.psd
+# *.tga
+# *.wav
+# *.fbx
+# *.mp4
+# *.avi
