@@ -16,10 +16,12 @@ public class PlayerController : MonoBehaviour
     float totalRotation = 0f;
     float lastRotation = 0f;
     float savedSpeed = 0f;
+    int comboMultiplier = 1;
 
     public int score = 0;
     public TMP_Text scoreText;
     public TMP_Text speedText;
+    public TMP_Text comboText;
 
     [SerializeField] GameObject spinTextPrefab;
 
@@ -86,7 +88,7 @@ public class PlayerController : MonoBehaviour
         float speed = rb.linearVelocity.magnitude;
         if (speed > 3f)
         {
-            score += (int)(speed * Time.deltaTime * 10);
+            score += (int)(speed * Time.deltaTime * 10 * comboMultiplier);
         }
         UpdateScoreUI();
     }
@@ -96,6 +98,10 @@ public class PlayerController : MonoBehaviour
         if (scoreText != null)
         {
             scoreText.text = "Score: " + score;
+        }
+        if (comboText != null)
+        {
+            comboText.text = "Combo x" + comboMultiplier;
         }
     }
 
@@ -117,13 +123,24 @@ public class PlayerController : MonoBehaviour
 
         if (totalRotation >= 290f)
         {
-            score += 100;
+            comboMultiplier++;
+            score += 100 * comboMultiplier;
             UpdateScoreUI();
             totalRotation = 0f;
 
             ShowSpinText();
+            UpdateComboUI();
         }
     }
+
+    void UpdateComboUI()
+    {
+        if (comboText != null)
+        {
+            comboText.text = "Combo x" + comboMultiplier;
+        }
+    }
+
 
     void OnCollisionEnter2D(Collision2D collision)
     {
@@ -131,6 +148,13 @@ public class PlayerController : MonoBehaviour
         {
             isJumping = false;
             totalRotation = 0f;
+            comboMultiplier = 1;
+            UpdateComboUI();
+            SurfaceEffector2D newSurface = collision.gameObject.GetComponent<SurfaceEffector2D>();
+            if (newSurface != null)
+            {
+                se = newSurface;
+            }
         }
     }
 
@@ -153,8 +177,9 @@ public class PlayerController : MonoBehaviour
 
             if (tmp != null)
             {
+                tmp.text = "+100 x" + comboMultiplier;
                 Renderer renderer = tmp.GetComponent<Renderer>();
-                renderer.sortingLayerName = "UI";  
+                renderer.sortingLayerName = "UI";
                 renderer.sortingOrder = 100;
 
                 StartCoroutine(AnimateSpinText(spinText));
@@ -183,7 +208,6 @@ public class PlayerController : MonoBehaviour
             float t = elapsedTime / duration;
 
             textObject.transform.position = Vector3.Lerp(startPos, endPos, t);
-
             textMesh.color = new Color(startColor.r, startColor.g, startColor.b, 1 - t);
 
             yield return null;

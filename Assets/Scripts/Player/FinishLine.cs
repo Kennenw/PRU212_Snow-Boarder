@@ -20,8 +20,17 @@ public class FinishLine : MonoBehaviour
     }
     void ReloadLevel()
     {
-        SceneManager.LoadScene(1);
+        GameManager gameManager = FindFirstObjectByType<GameManager>();
+        if (gameManager != null)
+        {
+            gameManager.ShowWin();
+        }
+        else
+        {
+            Debug.LogError("GameManager not found in scene!");
+        }
     }
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {

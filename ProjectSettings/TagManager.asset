@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Ground
   - UI
+  - FallZone
   layers:
   - Default
   - TransparentFX

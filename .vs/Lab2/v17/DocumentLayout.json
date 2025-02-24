@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "D:\\FPT\\SE7\\PRU212\\Ex\\Lab2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DDEF2E0A-5C3A-95E3-CBE5-C1365615EF7B}|Assembly-CSharp.csproj|d:\\fpt\\se7\\pru212\\ex\\lab2\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDEF2E0A-5C3A-95E3-CBE5-C1365615EF7B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DDEF2E0A-5C3A-95E3-CBE5-C1365615EF7B}|Assembly-CSharp.csproj|d:\\fpt\\se7\\pru212\\ex\\lab2\\assets\\scripts\\managers\\levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDEF2E0A-5C3A-95E3-CBE5-C1365615EF7B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\levelmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDEF2E0A-5C3A-95E3-CBE5-C1365615EF7B}|Assembly-CSharp.csproj|D:\\FPT\\SE7\\PRU212\\Ex\\Lab2\\assets\\scripts\\maincamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDEF2E0A-5C3A-95E3-CBE5-C1365615EF7B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\maincamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DDEF2E0A-5C3A-95E3-CBE5-C1365615EF7B}|Assembly-CSharp.csproj|D:\\FPT\\SE7\\PRU212\\Ex\\Lab2\\assets\\scripts\\player\\crashdetector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDEF2E0A-5C3A-95E3-CBE5-C1365615EF7B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\crashdetector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDEF2E0A-5C3A-95E3-CBE5-C1365615EF7B}|Assembly-CSharp.csproj|D:\\FPT\\SE7\\PRU212\\Ex\\Lab2\\assets\\scripts\\crashdetector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDEF2E0A-5C3A-95E3-CBE5-C1365615EF7B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\crashdetector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DDEF2E0A-5C3A-95E3-CBE5-C1365615EF7B}|Assembly-CSharp.csproj|D:\\FPT\\SE7\\PRU212\\Ex\\Lab2\\assets\\scripts\\managers\\maincamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDEF2E0A-5C3A-95E3-CBE5-C1365615EF7B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\maincamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDEF2E0A-5C3A-95E3-CBE5-C1365615EF7B}|Assembly-CSharp.csproj|D:\\FPT\\SE7\\PRU212\\Ex\\Lab2\\assets\\scripts\\finishline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDEF2E0A-5C3A-95E3-CBE5-C1365615EF7B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\finishline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DDEF2E0A-5C3A-95E3-CBE5-C1365615EF7B}|Assembly-CSharp.csproj|D:\\FPT\\SE7\\PRU212\\Ex\\Lab2\\assets\\scripts\\managers\\leaderboardmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDEF2E0A-5C3A-95E3-CBE5-C1365615EF7B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\leaderboardmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDEF2E0A-5C3A-95E3-CBE5-C1365615EF7B}|Assembly-CSharp.csproj|d:\\fpt\\se7\\pru212\\ex\\lab2\\assets\\scripts\\managers\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDEF2E0A-5C3A-95E3-CBE5-C1365615EF7B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDEF2E0A-5C3A-95E3-CBE5-C1365615EF7B}|Assembly-CSharp.csproj|D:\\FPT\\SE7\\PRU212\\Ex\\Lab2\\assets\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDEF2E0A-5C3A-95E3-CBE5-C1365615EF7B}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -55,52 +63,79 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PlayerController.cs",
-              "DocumentMoniker": "D:\\FPT\\SE7\\PRU212\\Ex\\Lab2\\Assets\\Scripts\\PlayerController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
-              "ToolTip": "D:\\FPT\\SE7\\PRU212\\Ex\\Lab2\\Assets\\Scripts\\PlayerController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
-              "ViewState": "AQIAAJkAAAAAAAAAAAAiwFYAAAAXAAAA",
+              "Title": "LevelManager.cs",
+              "DocumentMoniker": "D:\\FPT\\SE7\\PRU212\\Ex\\Lab2\\Assets\\Scripts\\Managers\\LevelManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\LevelManager.cs",
+              "ToolTip": "D:\\FPT\\SE7\\PRU212\\Ex\\Lab2\\Assets\\Scripts\\Managers\\LevelManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Managers\\LevelManager.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-10T10:22:43.079Z",
+              "WhenOpened": "2025-02-24T08:19:23.729Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FinishLine.cs",
-              "DocumentMoniker": "D:\\FPT\\SE7\\PRU212\\Ex\\Lab2\\Assets\\Scripts\\FinishLine.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\FinishLine.cs",
-              "ToolTip": "D:\\FPT\\SE7\\PRU212\\Ex\\Lab2\\Assets\\Scripts\\FinishLine.cs",
-              "RelativeToolTip": "Assets\\Scripts\\FinishLine.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-10T10:36:31.374Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MainCamera.cs",
-              "DocumentMoniker": "D:\\FPT\\SE7\\PRU212\\Ex\\Lab2\\Assets\\Scripts\\MainCamera.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\MainCamera.cs",
-              "ToolTip": "D:\\FPT\\SE7\\PRU212\\Ex\\Lab2\\Assets\\Scripts\\MainCamera.cs",
-              "RelativeToolTip": "Assets\\Scripts\\MainCamera.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
+              "Title": "CrashDetector.cs",
+              "DocumentMoniker": "D:\\FPT\\SE7\\PRU212\\Ex\\Lab2\\Assets\\Scripts\\Player\\CrashDetector.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\CrashDetector.cs",
+              "ToolTip": "D:\\FPT\\SE7\\PRU212\\Ex\\Lab2\\Assets\\Scripts\\Player\\CrashDetector.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\CrashDetector.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-10T10:54:15.837Z",
+              "WhenOpened": "2025-02-24T07:45:14.058Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CrashDetector.cs",
-              "DocumentMoniker": "D:\\FPT\\SE7\\PRU212\\Ex\\Lab2\\Assets\\Scripts\\CrashDetector.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\CrashDetector.cs",
-              "ToolTip": "D:\\FPT\\SE7\\PRU212\\Ex\\Lab2\\Assets\\Scripts\\CrashDetector.cs",
-              "RelativeToolTip": "Assets\\Scripts\\CrashDetector.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAvAAAA",
+              "Title": "MainCamera.cs",
+              "DocumentMoniker": "D:\\FPT\\SE7\\PRU212\\Ex\\Lab2\\Assets\\Scripts\\Managers\\MainCamera.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\MainCamera.cs",
+              "ToolTip": "D:\\FPT\\SE7\\PRU212\\Ex\\Lab2\\Assets\\Scripts\\Managers\\MainCamera.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Managers\\MainCamera.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-10T10:23:08.284Z",
+              "WhenOpened": "2025-02-24T06:14:48.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LeaderboardManager.cs",
+              "DocumentMoniker": "D:\\FPT\\SE7\\PRU212\\Ex\\Lab2\\Assets\\Scripts\\Managers\\LeaderboardManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\LeaderboardManager.cs",
+              "ToolTip": "D:\\FPT\\SE7\\PRU212\\Ex\\Lab2\\Assets\\Scripts\\Managers\\LeaderboardManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Managers\\LeaderboardManager.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwC8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T06:14:46.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "D:\\FPT\\SE7\\PRU212\\Ex\\Lab2\\Assets\\Scripts\\Managers\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\GameManager.cs",
+              "ToolTip": "D:\\FPT\\SE7\\PRU212\\Ex\\Lab2\\Assets\\Scripts\\Managers\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Managers\\GameManager.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAmwEsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T06:14:44.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "D:\\FPT\\SE7\\PRU212\\Ex\\Lab2\\Assets\\Scripts\\Player\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerController.cs",
+              "ToolTip": "D:\\FPT\\SE7\\PRU212\\Ex\\Lab2\\Assets\\Scripts\\Player\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerController.cs",
+              "ViewState": "AQIAAIMAAAAAAAAAAAAAAJ0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T06:08:11.064Z",
               "EditorCaption": ""
             }
           ]

@@ -3,7 +3,9 @@ using UnityEngine.SceneManagement;
 
 public class MainCamera : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    [SerializeField] private GameObject mainScreen;
+    [SerializeField] private GameObject levelScreen;
+
     public void PlayGame()
     {
         SceneManager.LoadSceneAsync(1);
@@ -12,6 +14,15 @@ public class MainCamera : MonoBehaviour
     {
 
     }
+    public void Levels()
+    {
+        if (mainScreen != null && levelScreen != null)
+        {
+            mainScreen.SetActive(false);
+            levelScreen.SetActive(true);
+        }
+    }
+
     public void Quit()
     {
         Application.Quit();
@@ -21,7 +32,6 @@ public class MainCamera : MonoBehaviour
         
     }
 
-    // Update is called once per frame
     void Update()
     {
         

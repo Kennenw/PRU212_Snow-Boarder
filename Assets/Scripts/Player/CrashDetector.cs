@@ -5,31 +5,35 @@ public class CrashDetector : MonoBehaviour
 {
     [SerializeField] float floatDelay = 2f;
     [SerializeField] ParticleSystem crashEffect;
+    [SerializeField] GameManager gameManager;
+
     bool hasCrashed = false;
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.tag == "Ground" && hasCrashed == false)
+        if(collision.tag == "Ground" && hasCrashed == false || collision.CompareTag("FallZone"))
         {
             hasCrashed = true;
             crashEffect.Play();
             GetComponent<AudioSource>().Play();
             FindFirstObjectByType<PlayerController>().DisableController();
-            Invoke("ReloadLevel", floatDelay);
+            if (gameManager != null)
+            {
+                Invoke("ShowGameOver", floatDelay);
+            }
+            else
+            {
+                Invoke("ReloadLevel", floatDelay);
+            }
         }
     }
-    void ReloadLevel()
+    void ShowGameOver()
     {
-        SceneManager.LoadScene(1);
-    }
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
+        gameManager.GameOver();
     }
 
-    // Update is called once per frame
-    void Update()
+    void ReloadLevel()
     {
-        
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }
