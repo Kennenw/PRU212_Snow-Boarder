@@ -62,8 +62,10 @@ public class GameManager : MonoBehaviour
     }
     public void RestartGame()
     {
-        Time.timeScale = 1;
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        Debug.Log("Restarting game...");
+        Time.timeScale = 1;  // Đảm bảo game không bị đơ
+        ScoreManager.Instance.ResetScore();  // Reset điểm
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex); // Load lại scene hiện tại
     }
 
     public void GoToMainMenu()

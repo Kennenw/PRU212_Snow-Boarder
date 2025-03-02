@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -81,17 +82,25 @@ public class PlayerController : MonoBehaviour
     public void DisableController()
     {
         canMove = false;
+        ScoreManager.Instance.SaveFinalScore(score);  // Truyền điểm số hiện tại
     }
 
     void CalculateSpeedScore()
     {
         float speed = rb.linearVelocity.magnitude;
-        if (speed > 3f)
+        int pointsToAdd = (int)(speed * Time.deltaTime * 10 * comboMultiplier);
+
+        if (speed > 3f && pointsToAdd > 0) // Tránh cộng điểm 2 lần
         {
-            score += (int)(speed * Time.deltaTime * 10 * comboMultiplier);
+            score += pointsToAdd;
+            ScoreManager.Instance.AddScore(pointsToAdd);
         }
-        UpdateScoreUI();
+
+        Debug.Log("Score hiện tại: " + score);
     }
+
+
+
 
     void UpdateScoreUI()
     {
@@ -215,4 +224,25 @@ public class PlayerController : MonoBehaviour
 
         Destroy(textObject);
     }
+
+    void Start()
+    {
+        score = 0; // Đặt lại điểm khi game bắt đầu
+        ScoreManager.Instance.ResetScore(); // Gọi reset từ ScoreManager
+    }
+
+    public void RestartGame()
+    {
+        Debug.Log("Restarting game...");
+
+        Time.timeScale = 1;
+        Debug.Log("Current TimeScale: " + Time.timeScale);
+
+        ScoreManager.Instance.ResetScore();  // Reset điểm ngay
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+
+
+
 }
