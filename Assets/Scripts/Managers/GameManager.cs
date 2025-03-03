@@ -1,6 +1,7 @@
 ﻿using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Assets.Scripts.Score; // Import HighestScore
 
 public class GameManager : MonoBehaviour
 {
@@ -9,7 +10,17 @@ public class GameManager : MonoBehaviour
     public GameObject winPanel;
     public TMP_Text winScoreText;
     public TMP_Text gameOverScoreText;
+    public TMP_Text highScoreText; // Thêm Text để hiển thị điểm cao nhất
     private bool isPaused = false;
+
+    void Start()
+    {
+        // Hiển thị điểm số cao nhất khi vào game
+        if (highScoreText != null)
+        {
+            highScoreText.text = "High Score: " + HighestScore.GetHighScore();
+        }
+    }
 
     void Update()
     {
@@ -34,21 +45,25 @@ public class GameManager : MonoBehaviour
         if (player != null && gameOverScoreText != null)
         {
             gameOverScoreText.text = "Score: " + player.score;
+            HighestScore.SaveHighScore(player.score); // Cập nhật điểm cao nhất
         }
     }
+
     public void ShowWin()
     {
         winPanel.SetActive(true);
         Time.timeScale = 0;
         PlayerController player = FindFirstObjectByType<PlayerController>();
-        if (player != null && gameOverScoreText != null)
+        if (player != null && winScoreText != null)
         {
             winScoreText.text = "Score: " + player.score;
+            HighestScore.SaveHighScore(player.score); // Cập nhật điểm cao nhất
         }
     }
+
     public void NextLevel()
     {
-        Time.timeScale = 1; 
+        Time.timeScale = 1;
         int nextSceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
         if (nextSceneIndex < SceneManager.sceneCountInBuildSettings)
         {
@@ -60,6 +75,7 @@ public class GameManager : MonoBehaviour
             Debug.Log("No more levels!");
         }
     }
+
     public void RestartGame()
     {
         Time.timeScale = 1;
@@ -71,5 +87,4 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 1;
         SceneManager.LoadSceneAsync(0);
     }
-
 }
