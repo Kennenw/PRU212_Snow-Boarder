@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using TMPro;
 using UnityEngine;
 
@@ -10,18 +11,25 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float boostSpeed;
     [SerializeField] float baseSpeed;
     [SerializeField] float slowSpeed;
+    [SerializeField] float jumpForce = 15f;
+    [SerializeField] LayerMask groundLayer;
 
     bool canMove = true;
     bool isJumping = false;
+
     float totalRotation = 0f;
     float lastRotation = 0f;
     float savedSpeed = 0f;
     int comboMultiplier = 1;
-
     public int score = 0;
+
     public TMP_Text scoreText;
     public TMP_Text speedText;
     public TMP_Text comboText;
+
+    Vector2 startPosition;
+    float distanceTraveled = 0f;
+    public TMP_Text distanceText;
 
     [SerializeField] GameObject spinTextPrefab;
 
@@ -29,6 +37,7 @@ public class PlayerController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         se = FindFirstObjectByType<SurfaceEffector2D>();
+        startPosition = transform.position;
     }
 
     private void Update()
@@ -38,11 +47,35 @@ public class PlayerController : MonoBehaviour
             RotatePlayer();
             Boost();
             CalculateSpeedScore();
+            CalculateDistance();
             UpdateSpeedUI();
+            UpdateDistanceUI();
             PerformSpin();
+            HandleJump();
+        }
+    }
+    void HandleJump()
+    {
+        if (Input.GetKeyDown(KeyCode.Space) && !isJumping)
+        {
+            Debug.Log("Jump");
+            float currentHorizontalSpeed = rb.linearVelocity.x;
+            rb.linearVelocity = new Vector2(currentHorizontalSpeed, jumpForce);
+            isJumping = true;
         }
     }
 
+    void CalculateDistance()
+    {
+        distanceTraveled = Vector2.Distance(startPosition, transform.position);
+    }
+    void UpdateDistanceUI()
+    {
+        if (distanceText != null)
+        {
+            distanceText.text = "Distance: " + distanceTraveled.ToString("F2") + " m";
+        }
+    }
     void Boost()
     {
         if (!isJumping)
@@ -60,10 +93,10 @@ public class PlayerController : MonoBehaviour
                 se.speed = baseSpeed;
             }
         }
-        else
-        {
-            rb.linearVelocity = new Vector2(savedSpeed, rb.linearVelocity.y);
-        }
+        //else
+        //{
+        //    rb.linearVelocity = new Vector2(savedSpeed, rb.linearVelocity.y);
+        //}
     }
 
     void RotatePlayer()
@@ -85,12 +118,12 @@ public class PlayerController : MonoBehaviour
 
     void CalculateSpeedScore()
     {
-        float speed = rb.linearVelocity.magnitude;
-        if (speed > 3f)
-        {
-            score += (int)(speed * Time.deltaTime * 10 * comboMultiplier);
-        }
-        UpdateScoreUI();
+        //float speed = rb.linearVelocity.magnitude;
+        //if (speed > 3f)
+        //{
+        //    score += (int)(speed * Time.deltaTime * 10 * comboMultiplier);
+        //}
+        //UpdateScoreUI();
     }
 
     void UpdateScoreUI()
@@ -215,4 +248,10 @@ public class PlayerController : MonoBehaviour
 
         Destroy(textObject);
     }
+    public void AddScore(int amount)
+    {
+        score += amount;
+        UpdateScoreUI();
+    }
+
 }
