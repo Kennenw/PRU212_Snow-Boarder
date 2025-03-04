@@ -11,7 +11,6 @@ public class GameManager : MonoBehaviour
     public GameObject winPanel;
     public TMP_Text winScoreText;
     public TMP_Text gameOverScoreText;
-    public TMP_Text highScoreText; // Thêm Text để hiển thị điểm cao nhất
     private bool isPaused = false;
 
     void Start()
