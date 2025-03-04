@@ -7,12 +7,6 @@ namespace Assets.Scripts.Score
     public class HighestScore : MonoBehaviour
     {
 
-
-        private void Start()
-        {
-            
-        }
-
         // Lưu điểm số cao nhất nếu điểm mới cao hơn
         public static void SaveHighScore(int score)
         {
