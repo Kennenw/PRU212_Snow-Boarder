@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -5,6 +6,8 @@ public class MainCamera : MonoBehaviour
 {
     [SerializeField] private GameObject mainScreen;
     [SerializeField] private GameObject levelScreen;
+    [SerializeField] private GameObject HighScorePanel;
+    public TMP_Text[] scoreTexts;
 
     public void PlayGame()
     {
@@ -21,6 +24,22 @@ public class MainCamera : MonoBehaviour
             mainScreen.SetActive(false);
             levelScreen.SetActive(true);
         }
+    }
+
+    public void ShowHighScores()
+    {
+        HighScorePanel.SetActive(true);
+
+        for (int i = 0; i < scoreTexts.Length; i++)
+        {
+            int score = PlayerPrefs.GetInt("HighScore" + i, 0);
+            scoreTexts[i].text = (i + 1) + ". " + score;
+        }
+    }
+
+    public void HideHighScores()
+    {
+        HighScorePanel.SetActive(false);
     }
 
     public void Quit()

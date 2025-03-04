@@ -11,13 +11,13 @@ public class LeaderboardManager : MonoBehaviour
 
     void Start()
     {
-        LoadHighScores();
+        //LoadHighScores();
     }
 
     public void ShowHighScores()
     {
         HighScorePanel.SetActive(true);
-        LoadHighScores();
+        //LoadHighScores();
     }
 
     public void SaveHighScore(int newScore)
@@ -42,30 +42,30 @@ public class LeaderboardManager : MonoBehaviour
         PlayerPrefs.Save();
     }
 
-    void LoadHighScores()
-    {
-        if (highScoreText != null)
-        {
-            highScoreText.text = "High Score: " + HighestScore.GetHighScore();
-        }
+    //void LoadHighScores()
+    //{
+    //    if (highScoreText != null)
+    //    {
+    //        highScoreText.text = "High Score: " + HighestScore.GetHighScore();
+    //    }
 
-        for (int i = 0; i < scoreTexts.Length; i++)
-        {
-            int score = PlayerPrefs.GetInt("HighScore" + i, 0);
-            scoreTexts[i].text = (i + 1) + ". " + score;
-        }
-    }
+    //    for (int i = 0; i < scoreTexts.Length; i++)
+    //    {
+    //        int score = PlayerPrefs.GetInt("HighScore" + i, 0);
+    //        scoreTexts[i].text = (i + 1) + ". " + score;
+    //    }
+    //}
 
-    public void ResetHighScores()
-    {
-        for (int i = 0; i < 10; i++)
-        {
-            PlayerPrefs.DeleteKey("HighScore" + i);
-        }
+    //public void ResetHighScores()
+    //{
+    //    for (int i = 0; i < 10; i++)
+    //    {
+    //        PlayerPrefs.DeleteKey("HighScore" + i);
+    //    }
 
-        // Reset điểm số cao nhất
-        HighestScore.ResetHighScore();
-        PlayerPrefs.Save();
-        LoadHighScores();
-    }
+    //    // Reset điểm số cao nhất
+    //    HighestScore.ResetHighScore();
+    //    PlayerPrefs.Save();
+    //    LoadHighScores();
+    //}
 }

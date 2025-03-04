@@ -1,7 +1,8 @@
 ﻿using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using Assets.Scripts.Score; // Import HighestScore
+using Assets.Scripts.Score;
+using System.Collections.Generic; // Import HighestScore
 
 public class GameManager : MonoBehaviour
 {
@@ -15,11 +16,7 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-        // Hiển thị điểm số cao nhất khi vào game
-        if (highScoreText != null)
-        {
-            highScoreText.text = "High Score: " + HighestScore.GetHighScore();
-        }
+        
     }
 
     void Update()
@@ -87,4 +84,6 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 1;
         SceneManager.LoadSceneAsync(0);
     }
+
+    
 }

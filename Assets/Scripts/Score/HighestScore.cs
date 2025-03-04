@@ -1,50 +1,45 @@
 ﻿using UnityEngine;
 using TMPro;
+using System.Collections.Generic;
 
 namespace Assets.Scripts.Score
 {
     public class HighestScore : MonoBehaviour
     {
-        private const string HighScoreKey = "HighScore";
 
-        public TMP_Text highScoreText; // Kết nối với UI TextMeshPro
 
         private void Start()
         {
-            UpdateHighScoreUI();
-        }
-
-        // Lấy điểm số cao nhất từ PlayerPrefs
-        public static int GetHighScore()
-        {
-            return PlayerPrefs.GetInt(HighScoreKey, 0);
+            
         }
 
         // Lưu điểm số cao nhất nếu điểm mới cao hơn
         public static void SaveHighScore(int score)
         {
-            int currentHighScore = GetHighScore();
-            if (score > currentHighScore)
+            List<int> highScores = new List<int>();
+
+            // Lấy danh sách điểm cũ
+            for (int i = 0; i < 5; i++)
             {
-                PlayerPrefs.SetInt(HighScoreKey, score);
+                highScores.Add(PlayerPrefs.GetInt("HighScore" + i, 0));
                 PlayerPrefs.Save();
             }
-        }
 
-        // Reset điểm số cao nhất
-        public static void ResetHighScore()
-        {
-            PlayerPrefs.DeleteKey(HighScoreKey);
+            // Thêm điểm mới vào danh sách
+            highScores.Add(score);
+            highScores.Sort((a, b) => b.CompareTo(a)); 
+
+            // Chỉ lưu 10 điểm cao nhất
+            for (int i = 0; i < 5; i++)
+            {
+                PlayerPrefs.SetInt("HighScore" + i, highScores[i]);
+            }
+
             PlayerPrefs.Save();
         }
 
-        // Cập nhật hiển thị UI
-        private void UpdateHighScoreUI()
-        {
-            if (highScoreText != null)
-            {
-                highScoreText.text = "High Score: " + GetHighScore().ToString();
-            }
-        }
+        
+
+        
     }
 }
