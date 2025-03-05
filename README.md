@@ -15,11 +15,13 @@ SNOW-BOADER
     Trên hành trình của mình, Alex phải đối mặt với nhiều chướng ngại vật, từ những tảng đá bất ngờ xuất hiện đến những con dốc dựng đứng đầy thử thách. Người chơi phải sử dụng kỹ năng điều khiển nhân vật, thực hiện những pha nhào lộn đẹp mắt, thu thập kim cương và vượt qua quãng đường xa nhất có thể để chứng minh mình là tay trượt tuyết số một.
     
 2. Gameplay & Các tính năng nổi bật
+
     2.1 Cơ chế điều khiển
       Người chơi có thể điều khiển nhân vật với các thao tác đơn giản nhưng mang tính thử thách cao:
       Nhảy (Jump): Giúp vượt qua chướng ngại vật hoặc tạo đà để thực hiện kỹ năng.
       Xoay trên không (Spin): Khi nhân vật nhảy lên, người chơi có thể xoay để ghi điểm.
       Tăng tốc (Boost): Đạt tốc độ cao hơn khi trượt trên đường băng thẳng.
+      
     2.2 Hệ thống điểm số
       Game có hệ thống tính điểm chuyên nghiệp để khuyến khích người chơi thực hiện các kỹ thuật đẹp mắt:
       Xoay 1 vòng (360 độ): +100 điểm
@@ -43,8 +45,10 @@ SNOW-BOADER
       Options – Điều chỉnh âm thanh, độ khó, lựa chọn cấp độ chơi.
       High Score – Xem bảng xếp hạng top 5 người chơi có điểm cao nhất.
       Quit – Thoát khỏi trò chơi.
+      
     3.2 Gameplay
       Màn chơi chính của game, nơi người chơi thể hiện kỹ năng trượt tuyết và cố gắng đạt điểm số cao nhất.
+      
     3.3 Game Over
         ![image](https://github.com/user-attachments/assets/e45453bc-1b12-4b43-8259-101bbac10762)
       Khi người chơi thua cuộc (va chạm vào chướng ngại vật quá nhiều lần hoặc hết thời gian), màn hình Game Over xuất hiện.
