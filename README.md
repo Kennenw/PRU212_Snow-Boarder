@@ -1,16 +1,19 @@
 SNOW-BOADER
 
 1. Giới thiệu dự án
+
   1.1 Thông tin chung
     Tên game: Snow-Boader
     Thể loại: Thể thao, phiêu lưu, hành động
     Nền tảng: PC 
     Công cụ phát triển: Unity, C#
     Mục tiêu: Tạo ra một trải nghiệm trượt tuyết thú vị, thử thách kỹ năng người chơi thông qua các cơ chế xoay, nhảy và thu thập vật phẩm.
+    
   1.2 Bối cảnh & Cốt truyện
     Bạn vào vai Alex Frost, một tay trượt tuyết trẻ tuổi đầy tham vọng, đang tham gia giải đấu Snow Challenge – một cuộc thi trượt tuyết lớn nhất thế giới được tổ chức trên đỉnh Frozen Peak, nơi tuyết trắng phủ đầy và những cung đường trượt đầy thử thách.
     Frozen Peak không chỉ là một nơi dành cho dân chuyên nghiệp mà còn ẩn chứa nhiều bí ẩn. Truyền thuyết kể rằng, có một viên Kim Cương Băng Giá huyền thoại nằm đâu đó trên đỉnh núi. Những ai có thể vượt qua tất cả thử thách và đạt số điểm cao nhất sẽ có cơ hội sở hữu viên đá quý này.
     Trên hành trình của mình, Alex phải đối mặt với nhiều chướng ngại vật, từ những tảng đá bất ngờ xuất hiện đến những con dốc dựng đứng đầy thử thách. Người chơi phải sử dụng kỹ năng điều khiển nhân vật, thực hiện những pha nhào lộn đẹp mắt, thu thập kim cương và vượt qua quãng đường xa nhất có thể để chứng minh mình là tay trượt tuyết số một.
+    
 2. Gameplay & Các tính năng nổi bật
     2.1 Cơ chế điều khiển
       Người chơi có thể điều khiển nhân vật với các thao tác đơn giản nhưng mang tính thử thách cao:
