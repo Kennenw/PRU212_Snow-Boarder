@@ -28,23 +28,23 @@ SNOW-BOADER
    
       Người chơi có thể điều khiển nhân vật với các thao tác đơn giản nhưng mang tính thử thách cao:
 
-   Nhảy (Jump): Giúp vượt qua chướng ngại vật hoặc tạo đà để thực hiện kỹ năng.
-
-   Xoay trên không (Spin): Khi nhân vật nhảy lên, người chơi có thể xoay để ghi điểm.
-
-   Tăng tốc (Boost): Đạt tốc độ cao hơn khi trượt trên đường băng thẳng.
+     Nhảy (Jump): Giúp vượt qua chướng ngại vật hoặc tạo đà để thực hiện kỹ năng.
+  
+     Xoay trên không (Spin): Khi nhân vật nhảy lên, người chơi có thể xoay để ghi điểm.
+  
+     Tăng tốc (Boost): Đạt tốc độ cao hơn khi trượt trên đường băng thẳng.
       
     2.2 Hệ thống điểm số
    
       Game có hệ thống tính điểm chuyên nghiệp để khuyến khích người chơi thực hiện các kỹ thuật đẹp mắt:
-
-   Xoay 1 vòng (360 độ): +100 điểm
-
-   Nhặt kim cương trên đường: +10 điểm mỗi viên
-
-    Vượt qua chướng ngại vật mà không bị chạm: +50 điểm
-
-    Điểm số càng cao, người chơi càng có cơ hội mở khóa nhiều phần thưởng hấp dẫn.
+  
+     Xoay 1 vòng (360 độ): +100 điểm
+  
+     Nhặt kim cương trên đường: +10 điểm mỗi viên
+  
+      Vượt qua chướng ngại vật mà không bị chạm: +50 điểm
+  
+      Điểm số càng cao, người chơi càng có cơ hội mở khóa nhiều phần thưởng hấp dẫn.
      
     2.3 Hệ thống giao diện (UI)
    
@@ -74,7 +74,7 @@ SNOW-BOADER
       Quit – Thoát khỏi trò chơi.
       
     3.2 Gameplay
-      Màn chơi chính của game, nơi người chơi thể hiện kỹ năng trượt tuyết và cố gắng đạt điểm số cao nhất.
+     ` Màn chơi chính của game, nơi người chơi thể hiện kỹ năng trượt tuyết và cố gắng đạt điểm số cao nhất.
       
     3.3 Game Over
         ![image](https://github.com/user-attachments/assets/e45453bc-1b12-4b43-8259-101bbac10762)
@@ -87,21 +87,21 @@ SNOW-BOADER
 
 6. Công nghệ & Công cụ sử dụng
    
-  Unity Engine: Công cụ chính để phát triển game.
-
-  C#: Ngôn ngữ lập trình để xử lý logic game.
+    Unity Engine: Công cụ chính để phát triển game.
+  
+    C#: Ngôn ngữ lập trình để xử lý logic game.
 
 7. Định hướng phát triển trong tương lai
 
-  Sau khi hoàn thiện phiên bản đầu tiên, game sẽ có những cập nhật và mở rộng để nâng cao trải nghiệm:
-  
-  Chế độ chơi mới: Chế độ Time Attack – người chơi phải hoàn thành thử thách trong thời gian giới hạn.
-  
-  Mở rộng bản đồ: Thêm nhiều cung đường trượt với địa hình đa dạng hơn.
-  
-  Hệ thống nhân vật: Người chơi có thể mở khóa các nhân vật mới với khả năng khác nhau.
-  Bảng xếp hạng online: So tài với người chơi trên toàn thế giới.
+    Sau khi hoàn thiện phiên bản đầu tiên, game sẽ có những cập nhật và mở rộng để nâng cao trải nghiệm:
+    
+    Chế độ chơi mới: Chế độ Time Attack – người chơi phải hoàn thành thử thách trong thời gian giới hạn.
+    
+    Mở rộng bản đồ: Thêm nhiều cung đường trượt với địa hình đa dạng hơn.
+    
+    Hệ thống nhân vật: Người chơi có thể mở khóa các nhân vật mới với khả năng khác nhau.
+    Bảng xếp hạng online: So tài với người chơi trên toàn thế giới.
 
-9. Kết luận
-  Snow-Boader là một tựa game trượt tuyết đầy thử thách và hấp dẫn, mang đến cho người chơi trải nghiệm chinh phục những cung đường tuyết tuyệt đẹp. Với lối chơi đơn giản nhưng không kém phần kịch tính, game hứa hẹn sẽ trở thành một lựa chọn giải trí thú vị cho mọi lứa tuổi.
+8. Kết luận
+    Snow-Boader là một tựa game trượt tuyết đầy thử thách và hấp dẫn, mang đến cho người chơi trải nghiệm chinh phục những cung đường tuyết tuyệt đẹp. Với lối chơi đơn giản nhưng không kém phần kịch tính, game hứa hẹn sẽ trở thành một lựa chọn giải trí thú vị cho mọi lứa tuổi.
 
