@@ -24,7 +24,9 @@ SNOW-BOADER
     Vượt qua chướng ngại vật mà không bị chạm: +50 điểm
     Điểm số càng cao, người chơi càng có cơ hội mở khóa nhiều phần thưởng hấp dẫn.
   2.3 Hệ thống giao diện (UI)
-  
+ 
+![image](https://github.com/user-attachments/assets/9be805a6-0d13-4ab0-af98-4d3c702faf6d)
+
     Trong khi chơi, màn hình sẽ hiển thị thông tin quan trọng giúp người chơi theo dõi tiến trình của mình:
     Tốc độ trượt – Hiển thị tốc độ hiện tại của nhân vật.
     Điểm số – Hiển thị tổng điểm mà người chơi đạt được.
@@ -32,7 +34,7 @@ SNOW-BOADER
 
 3. Các màn chơi (Scene) trong game
   3.1 Menu Chính
-    
+     ![image](https://github.com/user-attachments/assets/013b3974-2f2c-41d3-9859-9cdf5b8f9e4d)
     Màn hình menu cung cấp các lựa chọn:
     Start – Bắt đầu trò chơi.
     Options – Điều chỉnh âm thanh, độ khó, lựa chọn cấp độ chơi.
@@ -41,7 +43,8 @@ SNOW-BOADER
   3.2 Gameplay
     Màn chơi chính của game, nơi người chơi thể hiện kỹ năng trượt tuyết và cố gắng đạt điểm số cao nhất.
   3.3 Game Over
-  
+  ![image](https://github.com/user-attachments/assets/e45453bc-1b12-4b43-8259-101bbac10762)
+
     Khi người chơi thua cuộc (va chạm vào chướng ngại vật quá nhiều lần hoặc hết thời gian), màn hình Game Over xuất hiện.
     Hiển thị tổng điểm, quãng đường đã đi và bảng thành tích.
     Tùy chọn: Chơi lại hoặc Quay lại menu chính.
